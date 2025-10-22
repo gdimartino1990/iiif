@@ -1,0 +1,972 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://9065f768-73ce-4c18-86a9-ef2c2932fbf5",
+	"@type": "sc:Manifest",
+	"label": "Aeschylus_Strasbourg_1609",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "[Click to edit description]",
+			"@language": "de"
+		},
+		{
+			"@value": "German Argument preceding a 1609 edition of Aeschylus' Prometheus Bound with the original Greek and Latin translation by Matthias Garbitus as well as additions to both the original and the Latin translation at the hands of students of the Strasbourg Gymnasium. Performed in July in 1609",
+			"@language": ""
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "[Click to edit attribution]",
+	"sequences": [
+		{
+			"@id": "http://981e96dc-05da-4f41-bffb-40483fc4320c",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://fb179e56-7470-49ff-887e-b073ee37f211",
+					"@type": "sc:Canvas",
+					"label": "Deutsce Argumenta",
+					"height": 3508,
+					"width": 2479,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://13d15153-56c9-4fa9-bf9b-881fdd01d392",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://files.transkribus.eu/iiif/2/YPPRIOIZHYEXAYWNEHOPIJDD/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://files.transkribus.eu/iiif/2/YPPRIOIZHYEXAYWNEHOPIJDD",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 8696332,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 3508,
+								"width": 2479
+							},
+							"on": "http://fb179e56-7470-49ff-887e-b073ee37f211"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://62afea49-e518-41c8-a422-5b8a35786f1a",
+					"@type": "sc:Canvas",
+					"label": "Page 1",
+					"height": 3508,
+					"width": 2479,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://d0024d04-f676-477e-bbcf-5b9ca8a2c2ed",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://files.transkribus.eu/iiif/2/PYEIUGPNZOSWYSZVHEKPMUQK/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://files.transkribus.eu/iiif/2/PYEIUGPNZOSWYSZVHEKPMUQK",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 8696332,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 3508,
+								"width": 2479
+							},
+							"on": "http://62afea49-e518-41c8-a422-5b8a35786f1a"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://c63007a7-646c-4800-917d-89d6a5d83f88",
+					"@type": "sc:Canvas",
+					"label": "Page 2",
+					"height": 3508,
+					"width": 2479,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://c9e1f26f-0fe2-4918-8a8c-51b42a69c28d",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://files.transkribus.eu/iiif/2/HYYVBVJSIXLPWKDKUGFTYGLL/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://files.transkribus.eu/iiif/2/HYYVBVJSIXLPWKDKUGFTYGLL",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 8696332,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 3508,
+								"width": 2479
+							},
+							"on": "http://c63007a7-646c-4800-917d-89d6a5d83f88"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://3fbdec9f-deb9-458b-9e5d-1ff7fe7e16ab",
+					"@type": "sc:Canvas",
+					"label": "Page 16",
+					"height": 3508,
+					"width": 2479,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://9598cfda-4773-41f8-8a25-bd8d7656413b",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://files.transkribus.eu/iiif/2/PSATYSWNHYWOPFETCBTOISDR/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://files.transkribus.eu/iiif/2/PSATYSWNHYWOPFETCBTOISDR",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 8696332,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 3508,
+								"width": 2479
+							},
+							"on": "http://3fbdec9f-deb9-458b-9e5d-1ff7fe7e16ab"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://caa8b2e0-ffbd-4d5a-b0a7-538df727a66a",
+					"@type": "sc:Canvas",
+					"label": "Act 3, scene 1",
+					"height": 3508,
+					"width": 2479,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://f9955638-386e-4c96-8faf-88ab65002111",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://files.transkribus.eu/iiif/2/OCVPVFFPLERGDKBMYLSFZLHM/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://files.transkribus.eu/iiif/2/OCVPVFFPLERGDKBMYLSFZLHM",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 8696332,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 3508,
+								"width": 2479
+							},
+							"on": "http://caa8b2e0-ffbd-4d5a-b0a7-538df727a66a"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://daecb14d-eb0a-4350-b95f-07b5bd61ca24",
+					"@type": "sc:Canvas",
+					"label": "Latin",
+					"height": 3508,
+					"width": 2479,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://92439ad3-d332-4b6a-b011-a2cf23afcc3f",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://files.transkribus.eu/iiif/2/JOLNMTYXMCENEOKIWNAAMGKA/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://files.transkribus.eu/iiif/2/JOLNMTYXMCENEOKIWNAAMGKA",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 8696332,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 3508,
+								"width": 2479
+							},
+							"on": "http://daecb14d-eb0a-4350-b95f-07b5bd61ca24"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://c9b833a0-456d-46fa-aa9f-5010f31bd0cc",
+					"@type": "sc:Canvas",
+					"label": " Apollo Episode 2",
+					"height": 3508,
+					"width": 2479,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://65e86658-dfd5-485b-86c6-b112ef955b8f",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://files.transkribus.eu/iiif/2/VNOAMKMNVVDAKABJNWNWVKCX/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://files.transkribus.eu/iiif/2/VNOAMKMNVVDAKABJNWNWVKCX",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 8696332,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 3508,
+								"width": 2479
+							},
+							"on": "http://c9b833a0-456d-46fa-aa9f-5010f31bd0cc"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://543f2d95-f001-4358-9fc7-a58c2da55d8b",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 3508,
+					"width": 2479,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://6679cb11-2836-4df2-8893-80b9a61a7ac9",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://files.transkribus.eu/iiif/2/TLCVNBEXCJOHLTQEYTGWCVGI/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://files.transkribus.eu/iiif/2/TLCVNBEXCJOHLTQEYTGWCVGI",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 8696332,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 3508,
+								"width": 2479
+							},
+							"on": "http://543f2d95-f001-4358-9fc7-a58c2da55d8b"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://99ded02d-c00a-4f83-bf12-d306bbea1761",
+					"@type": "sc:Canvas",
+					"label": "Apollo Episode 3 (Aesch. PV)",
+					"height": 3508,
+					"width": 2479,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://6900227a-9617-4fa7-b9ad-384678259a68",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://files.transkribus.eu/iiif/2/STVUTGYBHVCWOHOXERPGNHBY/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://files.transkribus.eu/iiif/2/STVUTGYBHVCWOHOXERPGNHBY",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 8696332,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 3508,
+								"width": 2479
+							},
+							"on": "http://99ded02d-c00a-4f83-bf12-d306bbea1761"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://c0ba17a1-4fd8-41a4-8cc4-4751960f6bb6",
+					"@type": "sc:Canvas",
+					"label": "Garbitus PV",
+					"height": 3508,
+					"width": 2479,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://f721f74e-34ac-40d5-9783-b58c97270451",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://files.transkribus.eu/iiif/2/KLHPHBSCMEHJWBSWEVERTWUO/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://files.transkribus.eu/iiif/2/KLHPHBSCMEHJWBSWEVERTWUO",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 8696332,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 3508,
+								"width": 2479
+							},
+							"on": "http://c0ba17a1-4fd8-41a4-8cc4-4751960f6bb6"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://075b80ee-61c1-4a84-9a2f-cbb2c3705679",
+					"@type": "sc:Canvas",
+					"label": "Apollo Episode 4",
+					"height": 3508,
+					"width": 2479,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://9e368c7c-1c6f-4352-b6af-c2bdf1d17f78",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://files.transkribus.eu/iiif/2/HOWDPQVMBFMLWOREDXPXKZDU/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://files.transkribus.eu/iiif/2/HOWDPQVMBFMLWOREDXPXKZDU",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 8696332,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 3508,
+								"width": 2479
+							},
+							"on": "http://075b80ee-61c1-4a84-9a2f-cbb2c3705679"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://303af968-8638-43ba-971f-21cf2acc8430",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 3508,
+					"width": 2479,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://b75dc7c8-cc47-4eff-8c36-a61316ed7f2c",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://files.transkribus.eu/iiif/2/QWMQGFENHVTTGMCLJUNCLFVN/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://files.transkribus.eu/iiif/2/QWMQGFENHVTTGMCLJUNCLFVN",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 8696332,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 3508,
+								"width": 2479
+							},
+							"on": "http://303af968-8638-43ba-971f-21cf2acc8430"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://dc73d94f-2b16-46ed-b54f-9d9c7470c6af",
+					"@type": "sc:Canvas",
+					"label": "Final Chorus Greek",
+					"height": 3508,
+					"width": 2479,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://dcf3378e-2eb3-4073-a1aa-c6c884ccb0a4",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://files.transkribus.eu/iiif/2/FQIACUXMFBOSSVRKVAUVLQDE/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://files.transkribus.eu/iiif/2/FQIACUXMFBOSSVRKVAUVLQDE",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 8696332,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 3508,
+								"width": 2479
+							},
+							"on": "http://dc73d94f-2b16-46ed-b54f-9d9c7470c6af"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://77a28cef-629a-4515-893b-0e5a20781396",
+					"@type": "sc:Canvas",
+					"label": "Final Chorus Latin",
+					"height": 3508,
+					"width": 2479,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://34a9de9f-5128-4a9d-9780-11bea482df60",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://files.transkribus.eu/iiif/2/FXTPJPRYGIHWECAYEDAGZGLV/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://files.transkribus.eu/iiif/2/FXTPJPRYGIHWECAYEDAGZGLV",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 8696332,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 3508,
+								"width": 2479
+							},
+							"on": "http://77a28cef-629a-4515-893b-0e5a20781396"
+						}
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": []
+}
