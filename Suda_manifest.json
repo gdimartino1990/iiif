@@ -1,0 +1,78 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://86f1437d-da60-4c05-984c-18d3c1f61282",
+	"@type": "sc:Manifest",
+	"label": "Suda_1499",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "Suda, mit Vorwort hrsg. von Demetrius Chalcondyles. Mediolani",
+			"@language": "grc, la"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "[Click to edit attribution]",
+	"sequences": [
+		{
+			"@id": "http://2d38dc50-ecb0-45d2-bccb-8d80459d96a3",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://cc968e82-9e94-44d1-903d-fe045d8b176a",
+					"@type": "sc:Canvas",
+					"label": "p. 285v",
+					"height": 5820,
+					"width": 4076,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://0d35179a-2c28-4fda-ba07-26684a71fd3a",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00050756_00580/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00050756_00580",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"gif",
+												"jpg",
+												"png",
+												"tif",
+												"webp"
+											],
+											"supports": [
+												"profileLinkHeader",
+												"canonicalLinkHeader",
+												"regionSquare",
+												"rotationBy90s",
+												"mirroring",
+												"sizeAboveFull"
+											]
+										}
+									]
+								},
+								"height": 5820,
+								"width": 4076
+							},
+							"on": "http://cc968e82-9e94-44d1-903d-fe045d8b176a"
+						}
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": []
+}

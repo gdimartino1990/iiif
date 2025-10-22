@@ -1,0 +1,298 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://9065f768-73ce-4c18-86a9-ef2c2932fbf5",
+	"@type": "sc:Manifest",
+	"label": "Aeschylus_Strasbourg_1609",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "[Click to edit description]",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "[Click to edit attribution]",
+	"sequences": [
+		{
+			"@id": "http://981e96dc-05da-4f41-bffb-40483fc4320c",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://fb179e56-7470-49ff-887e-b073ee37f211",
+					"@type": "sc:Canvas",
+					"label": "Deutsce Argumenta",
+					"height": 3508,
+					"width": 2479,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://13d15153-56c9-4fa9-bf9b-881fdd01d392",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://files.transkribus.eu/iiif/2/YPPRIOIZHYEXAYWNEHOPIJDD/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://files.transkribus.eu/iiif/2/YPPRIOIZHYEXAYWNEHOPIJDD",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 8696332,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 3508,
+								"width": 2479
+							},
+							"on": "http://fb179e56-7470-49ff-887e-b073ee37f211"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://62afea49-e518-41c8-a422-5b8a35786f1a",
+					"@type": "sc:Canvas",
+					"label": "Page 1",
+					"height": 3508,
+					"width": 2479,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://d0024d04-f676-477e-bbcf-5b9ca8a2c2ed",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://files.transkribus.eu/iiif/2/PYEIUGPNZOSWYSZVHEKPMUQK/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://files.transkribus.eu/iiif/2/PYEIUGPNZOSWYSZVHEKPMUQK",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 8696332,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 3508,
+								"width": 2479
+							},
+							"on": "http://62afea49-e518-41c8-a422-5b8a35786f1a"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://c63007a7-646c-4800-917d-89d6a5d83f88",
+					"@type": "sc:Canvas",
+					"label": "Page 2",
+					"height": 3508,
+					"width": 2479,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://c9e1f26f-0fe2-4918-8a8c-51b42a69c28d",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://files.transkribus.eu/iiif/2/HYYVBVJSIXLPWKDKUGFTYGLL/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://files.transkribus.eu/iiif/2/HYYVBVJSIXLPWKDKUGFTYGLL",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 8696332,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 3508,
+								"width": 2479
+							},
+							"on": "http://c63007a7-646c-4800-917d-89d6a5d83f88"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://3fbdec9f-deb9-458b-9e5d-1ff7fe7e16ab",
+					"@type": "sc:Canvas",
+					"label": "Page 16",
+					"height": 3508,
+					"width": 2479,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://9598cfda-4773-41f8-8a25-bd8d7656413b",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://files.transkribus.eu/iiif/2/PSATYSWNHYWOPFETCBTOISDR/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://files.transkribus.eu/iiif/2/PSATYSWNHYWOPFETCBTOISDR",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 8696332,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 3508,
+								"width": 2479
+							},
+							"on": "http://3fbdec9f-deb9-458b-9e5d-1ff7fe7e16ab"
+						}
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": []
+}

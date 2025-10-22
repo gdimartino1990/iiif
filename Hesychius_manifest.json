@@ -1,0 +1,78 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://fcbac271-a11d-4948-a1b5-26baf3d150d2",
+	"@type": "sc:Manifest",
+	"label": "Hesychius_Lexicon_1521",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "Hesychius, Alexandrinus: Hēsychiu Lexikon. Hagenoae : Anshelm. 1521",
+			"@language": "grc"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "[Click to edit attribution]",
+	"sequences": [
+		{
+			"@id": "http://4ec26eb4-21af-427d-8382-9f546b167972",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://7d391a87-e5fd-494b-b1d8-93701cc3485f",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 3793,
+					"width": "P. 471",
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://6b8094ff-6263-4761-a912-548463852157",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb10139629_00240/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb10139629_00240",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"gif",
+												"jpg",
+												"png",
+												"tif",
+												"webp"
+											],
+											"supports": [
+												"profileLinkHeader",
+												"canonicalLinkHeader",
+												"regionSquare",
+												"rotationBy90s",
+												"mirroring",
+												"sizeAboveFull"
+											]
+										}
+									]
+								},
+								"height": 3793,
+								"width": 2364
+							},
+							"on": "http://7d391a87-e5fd-494b-b1d8-93701cc3485f"
+						}
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": []
+}

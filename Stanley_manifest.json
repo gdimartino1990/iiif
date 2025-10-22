@@ -1,0 +1,164 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://b80cfd51-f3f9-4e10-9356-18f0acf083b0",
+	"@type": "sc:Manifest",
+	"label": "Stanley_Commentary_PV_1663",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "[Click to edit description]",
+			"@language": "la, grc"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "[Click to edit attribution]",
+	"sequences": [
+		{
+			"@id": "http://520bc463-0c99-42c4-b6d7-c488286d6ac1",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://e0f31403-4d80-4653-8d63-c1faa822686a",
+					"@type": "sc:Canvas",
+					"label": "Page 1",
+					"height": 3508,
+					"width": 2479,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://706b89c6-a3b9-497f-a9eb-36483abd7131",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://files.transkribus.eu/iiif/2/YXLMSOXRYNTXDJGQTNMVECSN/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://files.transkribus.eu/iiif/2/YXLMSOXRYNTXDJGQTNMVECSN",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 8696332,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 3508,
+								"width": 2479
+							},
+							"on": "http://e0f31403-4d80-4653-8d63-c1faa822686a"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://4921d930-6ed2-467a-9a66-b3a5afcce232",
+					"@type": "sc:Canvas",
+					"label": "Page 2",
+					"height": 3508,
+					"width": 2479,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://04f29bd4-7538-4187-9757-8870f806ce8d",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://files.transkribus.eu/iiif/2/IUATCDRATQOJETBKPUVURJWH/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://files.transkribus.eu/iiif/2/IUATCDRATQOJETBKPUVURJWH",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 8696332,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 3508,
+								"width": 2479
+							},
+							"on": "http://4921d930-6ed2-467a-9a66-b3a5afcce232"
+						}
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": []
+}
