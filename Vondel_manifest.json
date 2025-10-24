@@ -1,0 +1,164 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://22d52b18-f53d-4e53-b333-ce41ea9c16c2",
+	"@type": "sc:Manifest",
+	"label": "Artist: Mander, Karel van (1548-1606). Vondel, Joost van den. De Vernieuwde Gulden Winckel der kunstlievende Nederlanders. Amsterdam. 1622. Page: 5.",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "[Click to edit description]",
+			"@language": "nl"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "[Click to edit attribution]",
+	"sequences": [
+		{
+			"@id": "http://eb04146d-225a-4c2f-80ee-e98a31bf823c",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://38ec947f-3a0c-4452-8969-c189b158d19f",
+					"@type": "sc:Canvas",
+					"label": "Artist: Mander, Karel van (1548-1606).",
+					"height": 3508,
+					"width": 2479,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://8a48e7ed-bc3a-4d7d-ba39-4ee14c23a680",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://files.transkribus.eu/iiif/2/GMLGCSJARMTLPHKVZROQCWNE/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://files.transkribus.eu/iiif/2/GMLGCSJARMTLPHKVZROQCWNE",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 8696332,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 3508,
+								"width": 2479
+							},
+							"on": "http://38ec947f-3a0c-4452-8969-c189b158d19f"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://3a961c35-0702-4402-9387-be379fed4636",
+					"@type": "sc:Canvas",
+					"label": "Poem by Joost van den Vondel",
+					"height": 3508,
+					"width": 2479,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://5542c9ee-63d0-44df-856e-d52876ddffd4",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://files.transkribus.eu/iiif/2/APGLDHFJMNEKJQHZZUAFJNWJ/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://files.transkribus.eu/iiif/2/APGLDHFJMNEKJQHZZUAFJNWJ",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 8696332,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 3508,
+								"width": 2479
+							},
+							"on": "http://3a961c35-0702-4402-9387-be379fed4636"
+						}
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": []
+}
